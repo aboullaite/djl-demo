@@ -19,9 +19,6 @@ public class ModelConfiguration {
 
   private static final Logger LOG = LoggerFactory.getLogger(ModelConfiguration.class);
 
-
-
-
   @Bean
   public ZooModel<Audio, String> loadModel() throws IOException, ModelException, TranslateException {
     // Load model.

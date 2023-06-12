@@ -1,5 +1,7 @@
 # DJL demo
-A small demo app that showcase building a speech recognition application leveraging [Deep Java Library](http://djl.ai/). The app is composed of:
+A small demo app that showcase building a speech recognition application leveraging [Deep Java Library](http://djl.ai/). 
+Full blog post can be found here https://aboullaite.me/djl-ml-java/
+The app is composed of:
 - Backend service: Spring boot app, loading `wav2vec` model and exposing a rest endpoint accepting an audio file and returning a string
 - Frontend app: Built using react JS, enabling to record an audio input and calling the rest endpoint.
 ![App demo](./img/demo.gif)
